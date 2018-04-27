@@ -1,0 +1,10 @@
+#!/bin/bash
+
+brew install stow
+
+#linking directories to home
+stow git -t ~ -v 3
+stow vim -t ~ -v 3
+stow bash -t ~ -v 3
+stow editor -t ~ -v 3 
+

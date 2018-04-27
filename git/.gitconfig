@@ -1,0 +1,17 @@
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit -m
+	last = log --oneline -1 HEAD
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cl = clone
+	sha = rev-parse HEAD
+[user]
+	name = Tony Tran
+	email = toant713@gmail.com
+[core]
+	excludesfile = /Users/tonytran/.gitignore_global
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true

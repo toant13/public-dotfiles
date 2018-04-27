@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/tonytran/git/Rekognize/.git'
+let g:netrw_dirhist_2='/Users/tonytran/git/lv-interview-questions/authentication-notify/backend/etc'
+let g:netrw_dirhist_3='/Users/tonytran/.vim'
+let g:netrw_dirhist_4='/Users/tonytran/.docker'
+let g:netrw_dirhist_5='/Users/tonytran/git/trantrends/contracts'
+let g:netrw_dirhist_6='/Users/tonytran/git/quadency/infrastructure/.git'
+let g:netrw_dirhist_7='/Users/tonytran/git/quadency/public-exchange-service/public-exchange-api'
